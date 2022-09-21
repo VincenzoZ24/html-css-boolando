@@ -6,6 +6,7 @@
 header{
     background-color: rgb(230, 117, 18);
     position: fixed;
+    z-index: 1;
     width: 100%;
     
 }
@@ -45,9 +46,45 @@ header{
 .cards{
     width: 33%;
     padding: 1rem;
+    position: relative;
+    
 }
 img{
+    
     width: 100%;
 }
 
+.sconto{
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+    padding: 0.5rem;
+    color: white;
+}
 
+.sostenibilità{
+    color: white;
+    background-color: green;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 30px;
+    left: 67px;
+}
+.sostenibilità-ultimocapo{
+    color: white;
+    background-color: green;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 30px;
+    
+}
+.cuore{
+    font-size: 30px;
+    background: white;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+.cuore:hover{
+    color: red;
+}
